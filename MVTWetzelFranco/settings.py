@@ -55,7 +55,7 @@ ROOT_URLCONF = 'MVTWetzelFranco.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["C:/Users/Franco/Desktop/Python/MVT - Wetzel Franco/MVTWetzelFranco/Template"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

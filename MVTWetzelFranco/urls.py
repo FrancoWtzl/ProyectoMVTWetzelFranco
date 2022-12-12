@@ -19,5 +19,5 @@ from AppWetzel.views import wetzel
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("wetzel/", wetzel)
+    path("wetzel/", wetzel),
 ]

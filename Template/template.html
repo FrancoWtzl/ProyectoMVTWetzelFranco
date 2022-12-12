@@ -9,8 +9,10 @@
 <body>
     <h1> ESTA ES LA FAMILIA WETZEL!! </h1>
 
-    
+<ul>
+    {% for f in familia %}
+    <li> El nombre es {{f.nombre}}, el apellido es {{f.apellido}}, nacio en el año {{f.año_nacimiento}} y tiene {{f.edad}} años </li>
+    {% endfor %}
 
-    
 </body>
 </html>
